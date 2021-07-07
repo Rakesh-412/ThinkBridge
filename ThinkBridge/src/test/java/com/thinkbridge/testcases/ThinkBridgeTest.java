@@ -37,7 +37,7 @@ public class ThinkBridgeTest extends ThinkBridgeBase {
 		}
 		
 		//SingUp and Validate Success Message
-	    String message =signUpPage.JabaTalksSignUp("Sruthi", "Sruthi", "bojedla.sruthi10@gmaill.com");
+	    String message =signUpPage.JabaTalksSignUp("rakesh", "rakesh", "rakesh10@gmail.com");
 	    System.out.println(message);
 	    Assert.assertEquals(message, "A welcome email has been sent. Please check your email.");
 		}
